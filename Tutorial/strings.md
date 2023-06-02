@@ -26,10 +26,26 @@ Since strings are arrays, we can loop through the characters in a string, with a
 
 Specify the start index and the end index, separated by a colon, to return a part of the string.
 
-   ```
-     b = "Hello, World!"
-     print(b[2:5])
-                    
+
+## Python - Modify Strings
+
+-  Upper Case - upper() method  returns the string in upper case:
+- Lower Case -  lower() method returns the string in lower case
+- Remove Whitespace - The strip() method removes any whitespace from the beginning or the end:
+- Replace String - The replace() method replaces a string with another string:
+- Split String - The split() method returns a list where the text between the specified separator becomes the list items.
+
+
+## String Concatenation
+To concatenate, or combine, two strings you can use the + operator.
+
+## String Format
+
+we cannot combine strings and numbers
+
+The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+
+
 
 
 

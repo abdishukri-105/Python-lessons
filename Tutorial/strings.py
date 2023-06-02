@@ -55,5 +55,43 @@ print(l[2:])  # Get the characters from position 2, and all the way to the end:
 o = "Hello, World!"
 print(o[-5:-2])   # Use negative indexes to start the slice from the end of the string:
 
+#  Python - Modify Strings
 
-    
+# upper()
+p = "Hello, World!"
+print(p.upper())
+
+# lower()
+r = "Hello, World!"
+print(r.lower())
+
+# strip()
+g = " Hello, World! "
+print(g.strip()) # returns "Hello, World!"
+
+#  replace()
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+#  split()
+f = "Hello, World!"
+print(f.split(","))  # returns ['Hello', ' World!']
+
+#  String Concatenation
+a = "Hello"
+b = "World"
+c = a + b
+d = a + " " + b
+print(c) # returns ['Helloworld']
+print(d) # returns ['Hello world']
+
+
+# String Format
+
+# Use the format() method to insert numbers into strings:
+
+age = 36
+txt6 = "My name is John, and I am {}"
+print(txt6.format(age))
+
+ 
