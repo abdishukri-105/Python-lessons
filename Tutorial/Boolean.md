@@ -23,3 +23,4 @@ In fact, there are not many values that evaluate to False, except empty values, 
 
 One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a __len__ function that returns 0 or False:
 
+please complete this
