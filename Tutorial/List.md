@@ -122,3 +122,41 @@ Return "orange" instead of "banana":
 The expression in the example above says:
 
 "Return the item if it is not banana, if it is banana return orange".
+
+## Python - Sort Lists
+
+#### Sort List Alphanumerically
+List objects have a sort() method that will sort the list alphanumerically, ascending, by default:
+
+> thislist.sort()
+
+#### Sort Descending
+To sort descending, use the keyword argument reverse = True:
+ > thislist.sort(reverse = True)
+
+ #### Customize Sort Function
+You can also customize your own function by using the keyword argument key = function.
+
+The function will return a number that will be used to sort the list (the lowest number first)
+
+> thislist.sort(key = myfunc)
+
+### Case Insensitive Sort
+By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters
+
+> thislist.sort()
+
+Luckily we can use built-in functions as key functions when sorting a list.
+
+So if you want a case-insensitive sort function, use str.lower as a key function:
+
+> thislist.sort(key = str.lower)
+
+### Reverse Order
+What if you want to reverse the order of a list, regardless of the alphabet?
+
+The reverse() method reverses the current sorting order of the elements.
+
+> thislist.reverse()
+
+
