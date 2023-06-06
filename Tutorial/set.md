@@ -10,8 +10,3 @@ Sets are written with curly brackets.
 
 > thisset = {"apple", "banana", "cherry"}
 
-
-
-
-
-jgfyjvyjm
